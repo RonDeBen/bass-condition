@@ -1,0 +1,11 @@
+# Ignore target and build directories for all projects
+target/
+**/target/
+**/Cargo.lock
+
+# Ignore editor and system files
+.DS_Store
+*.swp
+*.swo
+
+**/.embuild

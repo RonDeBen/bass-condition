@@ -2,7 +2,7 @@ pub mod billy;
 
 use esp_idf_svc::hal::delay::FreeRtos;
 
-use crate::billy_bass::BillyBass;
+use crate::billy::BillyBass;
 
 fn main() {
     // It is necessary to call this function once. Otherwise some patches to the runtime

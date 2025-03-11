@@ -1,6 +1,6 @@
 use esp_idf_svc::hal::delay::FreeRtos;
 
-use crate::billy_bass::BillyBass;
+use crate::billy::BillyBass;
 
 impl BillyBass<'_> {
     pub fn test_mouth_articulation(&mut self) {
