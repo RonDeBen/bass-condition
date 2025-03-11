@@ -2,7 +2,7 @@ use esp_idf_svc::hal::delay::FreeRtos;
 
 use crate::billy::BillyBass;
 
-impl BillyBass<'_> {
+impl BillyBass {
     pub fn test_mouth_articulation(&mut self) {
         log::info!("========= Starting Mouth Articulation Tests =========");
 

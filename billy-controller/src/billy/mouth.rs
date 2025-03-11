@@ -3,7 +3,7 @@ use super::{BillyBass, MouthDirection};
 use esp_idf_svc::hal::delay::FreeRtos;
 use std::cmp::Ordering;
 
-impl BillyBass<'_> {
+impl BillyBass {
     /// Set direction and apply the right pin configuration
     fn set_mouth_direction(&mut self, direction: MouthDirection) {
         // Only change pins if direction is actually changing
